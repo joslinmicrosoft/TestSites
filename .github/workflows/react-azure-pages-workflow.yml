@@ -3,11 +3,11 @@ name: Azure Pages CI
 on:
   push:
     branches:
-    - master
+    - react
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-    - master
+    - react
 
 jobs:
   azure_pages_build_and_deploy_job:
